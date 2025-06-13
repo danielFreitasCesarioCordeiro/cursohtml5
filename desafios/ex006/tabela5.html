@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: lightgray;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .destaque{
+            background-color: darkgray;
+        }
+        col.cnome{
+            background-color: darkgray;
+        }
+         col.csexo{
+            background-color: chocolate;
+        }
+          col.cidade{
+            background-color: crimson;
+        }
+          col.cprof{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Maria Luiza</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Daniel F.</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Progamador</td>
+        </tr>
+        <tr>
+            <td>Soraia M.</td>
+            <td>F</td>
+            <td>55</td>
+            <td>Fisioterapeuta</td>
+        </tr>
+        <tr>
+            <td>Cleber</td>
+            <td>M</td>
+            <td>44</td>
+            <td>Militar</td>
+        </tr>
+        <tr>
+            <td>Julia F.</td>
+            <td>F</td>
+            <td>55</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Itamar C.</td>
+            <td>M</td>
+            <td>55</td>
+            <td>Cormerciante</td>
+        </tr>
+    </table>
+</body>
+</html>
