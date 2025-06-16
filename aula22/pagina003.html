@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+  <style>
+    body{
+        background-color: cadetblue;
+    }
+    #mensagens {
+      font-family: Arial, sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+      cursor: pointer;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <a onclick="adicionarParagrafo()">clique em mim</a>
+
+  <div id="mensagens">
+  </div>
+
+  <script>
+    function adicionarParagrafo() {
+      const div = document.getElementById("mensagens");
+      const p = document.createElement("p");
+      p.textContent = "Você clicou";
+      div.appendChild(p);
+    }
+  </script>
+</body>
+</html>
