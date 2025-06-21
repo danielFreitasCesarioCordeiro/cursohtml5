@@ -2,6 +2,6 @@
 
 body{
     background: url(../imagens/cev-portrait.jpg);
-    
+    background-repeat: no-repeat;
     background-position: center bottom;
 }
